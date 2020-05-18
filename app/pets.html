@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner header__inner--pets ">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <nav class="menu ">
+                                <div class="burger-btn">
+                                    <svg class="ham ham6" viewBox="0 0 100 100" width="80"
+                                        onclick="this.classList.toggle('active')">
+                                        <path class="line top"
+                                            d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272" />
+                                        <path class="line middle"
+                                            d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272" />
+                                        <path class="line bottom"
+                                            d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272" />
+                                    </svg>
+                                </div>
+                                <ul class="menu__list menu__list-pets" id="menu">
+                                    <li class="animate__animated animate__fadeInLeft"><a href="https://gooodfly.github.io/app/#shelter" onclick="window.open('https://gooodfly.github.io/app/#shelter')"> О приюте</a>
+                                    </li>
+                                    <li class="animate__animated animate__fadeInLeft"><a href="#pets">Наши питомцы</a>
+                                    </li>
+                                    <li class="animate__animated animate__fadeInLeft"><a href="#help">Чтобы помочь
+                                            приюту</a></li>
+                                    <li class="animate__animated animate__fadeInLeft"><a href="#contatcs">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="pets">
+                <div class="container">
+                    <div class="pets__inner">
+                        <div class="pets__title title " id="allpets">
+                            Наши друзья которые ищут дом
+                        </div>
+                        <div class="pets__inner-btns">
+                            <button class="pets__inner-btn btn" type="button"
+                                data-filter=".category-cats">Кошки</button>
+                            <button class="pets__inner-btn btn" type="button"
+                                data-filter=".category-dogs">Собаки</button>
+                        </div>
+                        <div class="pets__inner-box" >
+                            <div class="pets__inner-item mix category-cats">
+                                <div class="pets__inner-img" style="background-image: url(images/cat.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Арника</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-dogs">
+                                <div class="pets__inner-img" style="background-image: url(images/Dog.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Тайсон </div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-dogs">
+                                <div class="pets__inner-img" style="background-image: url(images/dog1.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Гретта</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-dogs">
+                                <div class="pets__inner-img" style="background-image: url(images/dog4.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Чарли</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-cats">
+                                <div class="pets__inner-img" style="background-image: url(images/timmy.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Тимми</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-dogs">
+                                <div class="pets__inner-img" style="background-image: url(images/sof.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">София</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-cats">
+                                <div class="pets__inner-img" style="background-image: url(images/fredy.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Фреди</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                            <div class="pets__inner-item mix category-dogs">
+                                <div class="pets__inner-img" style="background-image: url(images/scarlet.jpg);"></div>
+                                <div class="pets__inner-info">
+                                    <div class="pets__inner-name">Бим</div>
+                                    <a class=" btn" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="pets__inner-btn--bottom btn" type="button" data-filter="all">Все друзья</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+        <footer class="footer">
+            <div class="footer__wrapper" style="background-image: url(images/footerdog.jpg);">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__col">
+                            <div class="footer__col-title wow animate__animated animate__fadeInLeft"
+                                data-wow-offset="200" id="contatcs">
+                                Для вопросов и предложений
+                            </div>
+                            <a class="footer__col-link link--envelope" href="#">goodfly@list</a>
+                            <a class="footer__col-link link--phone" href="#">8-800-000-00-00</a>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__col-title wow animate__animated animate__fadeInLeft"
+                                data-wow-offset="200">
+                                Мы ждем Вашего визита
+                            </div>
+                            <a class="footer__col-link" href="#">Санкт-Петербург, Парадная ул.</a>
+                            <a class="footer__col-link" href="#">Выборг, Ленина пр.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
